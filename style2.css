@@ -1,0 +1,313 @@
+body{
+	background-size: cover;
+	border: 2px solid black;
+	padding: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: open sans-serif;
+}
+
+
+div{
+	width: 100%; 
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: transparent; 
+	text-align: center;
+}
+
+div h1{
+	color: white;
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.name a{
+    font-size: 30px;
+    font-family: arial;
+    margin: 30px 0;
+    text-decoration: none;
+    color: rgb(255, 248, 248);
+    transition: 0.5s ease;
+    background-color: transparent;
+
+}
+
+.name{
+	font-size: 30px;
+	font-weight: bold;
+	background-color: transparent;
+}
+
+.image{
+	width: 200px;
+	height: 200px; 
+	border-radius: 100%;
+	border: 5px solid rgb(255, 251, 251);
+	size: 150px;
+}
+
+.infos h4{
+    text-align: left;
+
+}
+
+.infos ul li{
+    text-align: left;
+
+}
+
+.main-content #section1 hr{
+    color: rgb(0, 0, 0);
+    size: 2px;
+}
+
+div h2{
+	color: white;
+	font-size: 48px;
+	margin: 10px;
+	margin-top: 20px;
+    width: 100%;
+}
+
+.intro{
+	color: black;
+
+}
+
+.intro p{
+	text-align: start;
+}
+
+#self-introduction p{
+	margin: 20px 0 50px 0;
+	letter-spacing: 1.5px;
+	text-indent: 50px;
+}
+
+.education h4{
+	width: 100%;
+	text-align: start;
+	position: relative;
+	background-color: rgb(10, 10, 179);
+}
+
+
+.education h4{
+    text-transform: uppercase;
+    background-color: rgb(10, 10, 179);
+    outline-color: rgb(255, 251, 251);
+    color: white;
+	font-size: 40px;
+	margin: 10px;
+	margin-top: 20px;
+    width: 100%;
+}
+
+.education table{
+    width: 100%;
+    font-family: Arial;
+    border-collapse: collapse border;
+}
+
+.education thead{
+    background-color: rgb(10, 10, 179);
+	color: white;
+    font-size: 30px;
+	border: 2px solid rgb(255, 255, 255);
+}
+
+.education tbody tr{
+    color: white;
+    font-size: 25px;
+}
+
+.education table,td{
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 8px;
+}
+
+.expertise{
+    position: relative;
+    width: 100%;
+}
+
+.expertise h3{
+	width: 100%;
+	background-color: rgb(10, 10, 179);
+	text-align: start;
+	font-size: 40px;
+	color: white;
+}
+
+.expertise ul{
+    list-style-type: square;
+    padding-left: 15px;
+    padding-right: 15px;
+	letter-spacing: 1px;
+	text-align: start;
+
+}
+
+.it-background h4{
+    text-transform: uppercase;
+    background-color: rgb(10, 10, 179);
+    outline-color: black;
+    color: white;
+	font-size: 40px;
+	margin: 10px;
+    width: 100%;
+    text-align: start;
+}
+
+.it-background p{
+	text-align: start;
+}
+
+.Applications h4{
+    text-transform: uppercase;
+    background-color:rgb(10, 10, 179);
+    outline-color: black;
+    color: white;
+	font-size: 40px;
+	margin: 10px;
+    width: 100%;
+    text-align: start;
+}
+
+.Applications ol{
+	text-align: start;
+    color: white;
+    font-size: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+	letter-spacing: 1px;
+	text-align: start;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper .sidenav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 20%;
+    height: 100vh;
+    background: rgb(37, 62, 228);
+}
+
+.wrapper .sidenav h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 90px;
+
+}
+
+.wrapper .sidenav .icons {
+    bottom: 8px;
+    left: 50%;
+    margin-top: 40%;
+    transform: translate(-10%);
+}
+
+.icons a ion-icon:hover{
+    color: rgb(0, 0, 0);
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+.icons a ion-icon{
+    margin-top: 50%;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 0;
+    font-size: 40px;
+}
+
+.wrapper .sidenav ul li{
+    list-style: none;
+    padding: 15px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(245, 245, 245);
+}
+
+.wrapper .sidenav ul li a:hover{
+    color: rgb(251, 251, 251);
+}
+
+i{
+    margin-right: 6px;
+}
+
+.wrapper .sidenav ul li:hover{
+    background-color: rgb(145, 156, 232);
+}
+
+.wrapper .main-content{
+    width: 80%;
+    margin-left: 20%;
+}
+
+.wrapper .main-content #section1 #edu.it-background h4{
+    text-transform: uppercase;
+    background-color:rgb(10, 10, 179);
+    outline-color: black;
+    color: white;
+	font-size: 40px;
+	margin: 10px;
+    width: 100%;
+    text-align: start;
+
+}
+
+section{
+    height: 100vh;
+    padding: 30px;
+}
+
+#section0{
+    background: linear-gradient(to left, #f2f2f5, #001be6);
+}
+
+#section1{
+    background: linear-gradient(to left, #f2f2f5, #001be6);
+}
+
+#section2{
+    background: linear-gradient(to left, #f2f2f5, #001be6);
+}
+
+#section3{
+    background: linear-gradient(to left, #f2f2f5, #001be6);
+}
+
+#section3 ul li{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#section4{
+    background: linear-gradient(to left, #f2f2f5, #001be6);
+}
+
+#section5{
+    background: linear-gradient(to left, #f2f2f5, #001be6);
+}
+
+
+
